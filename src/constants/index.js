@@ -13,7 +13,8 @@ import {
   docker,
   RGA,
   DCCA,
-  AWS
+  AWS,
+  Terraform
 } from "../assets";
 
 export const navLinks = [
@@ -129,6 +130,13 @@ const projects = [
       "AWS Certified Developer - Associate showcases knowledge and understanding of core AWS services, uses, and basic AWS architecture best practices, and proficiency in developing, deploying, and debugging cloud-based applications by using AWS. Preparing for and attaining this certification gives certified individuals more confidence and credibility. Organizations with AWS Certified developers have the assurance of having the right talent to give them a competitive advantage and ensure stakeholder and customer satisfaction.",
     image: AWS,
     source_code_link: "https://www.credly.com/badges/a44a2892-957a-4b47-a8a7-ecba98bd5625",
+  },
+  {
+    name: "HashiCorp Certified: Terraform Associate",
+    description:
+      "The Terraform Associate certification is for Cloud Engineers specializing in operations, IT, or development who know the basic concepts and skills associated with open source HashiCorp Terraform.",
+    image: Terraform,
+    source_code_link: "https://www.credly.com/badges/c4f95add-9425-4a9a-8d34-646cb0afa7f9/linked_in_profile",
   },
 ];
 

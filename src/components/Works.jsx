@@ -15,7 +15,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} onClick={() => window.open(source_code_link, "_blank")}>
+     <a  href={source_code_link}>
       <Tilt
         options={{
           max: 45,
@@ -24,7 +24,7 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[270px]'>
           <img
             src={image}
             alt='project_image'
@@ -37,7 +37,7 @@ const ProjectCard = ({
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
       </Tilt>
-    </motion.div>
+    </a>
   );
 };
 

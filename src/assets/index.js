@@ -23,6 +23,7 @@ import RGA from './company/RGA.png'
 import DCCA from './company/dcca.png'
 
 import AWS from './AWS.png'
+import Terraform from './Terraform.png'
 
 export {
   logo,
@@ -44,12 +45,8 @@ export {
   tailwind,
   typescript,
   threejs,
-
- 
-
-  
- 
   DCCA,
   RGA,
-  AWS
+  AWS,
+  Terraform
 };
